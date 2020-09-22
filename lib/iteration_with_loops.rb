@@ -9,10 +9,13 @@ row_index = 0
     
     element_index = 0 
     while element_index < src[row_index] do
-      results << src[row_index][element_index] % 2 == 0
+      if src[row_index][element_index] % 2 == 0
+        results << src[row_index][element_index]
+      end
       element_index += 1 
     end
     
   row_index += 1 
   end 
+  results
 end
