@@ -9,7 +9,7 @@ row_index = 0
     
     element_index = 0 
     while element_index < src[row_index] do
-      if src[row_index][element_index] % 2 == 0
+      if src[row_index][element_index]
         results << src[row_index][element_index]
       end
       element_index += 1 
@@ -17,5 +17,5 @@ row_index = 0
     
   row_index += 1 
   end 
-  p results
+  p results.to_i 
 end
