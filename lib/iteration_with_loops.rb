@@ -8,7 +8,7 @@ row_index = 0
     
     element_index = 0 
     while element_index < src[row_index] do
-      puts src[row_index][element_index].even?
+      puts src[row_index][element_index] % 2 == 0
       element_index += 1 
     end
     
