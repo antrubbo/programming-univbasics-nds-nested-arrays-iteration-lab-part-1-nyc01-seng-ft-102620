@@ -17,5 +17,5 @@ row_index = 0
     
   row_index += 1 
   end 
-  results
+  p results
 end
